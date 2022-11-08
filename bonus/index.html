@@ -13,8 +13,8 @@
 
 
     <div id="app">
-        <ol v-show="listEmail.length === 10">
-            <li v-for="email in listEmail">{{email}}</li>
+        <ol >
+            <li v-for="email in listEmail" v-show="listEmail.length === 10">{{email}}</li>
         </ol>
     </div>
 
